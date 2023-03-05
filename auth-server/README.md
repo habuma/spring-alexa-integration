@@ -39,6 +39,8 @@ the client application's redirect URI. In this client-free pretending, you likel
 won't have anything listening there and you'll get an error in your browser. 
 That's okay. You only really need the "code" parameter in the redirect URL. Copy 
 the value of the "code" parameter from the browser's address bar.
+  - Note that there are 3 additional redirect URIs specified in `AuthServerConfig`.
+    These are the redirect URIs used by Alexa for account linking purposes.
 
 - In a terminal window, assign the code to a shell variable:
 
