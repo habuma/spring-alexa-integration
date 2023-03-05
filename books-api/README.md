@@ -47,3 +47,9 @@ in that project's README, being sure to approve "books.write" scope.
 
  - Request the list of books again to prove that the book was added.
 
+For More Details
+----------------
+If you're new to developing with Spring or want to learn more about Spring and
+Spring Boot, check out my book "Spring in Action, 6th Edition", available at
+[Amazon](http://www.amazon.com/gp/product/1617297577/?tag=habumacom-20) or 
+from [Manning.com](https://www.manning.com/books/spring-in-action-sixth-edition?a_aid=habuma&a_bid=f205d999&chan=habuma).

@@ -64,3 +64,9 @@ Alternatively, use the `jwt` command line tool (https://www.npmjs.com/package/jw
 % jwt <<ACCESS TOKEN COPIED FROM RESPONSE>>
 ~~~
 
+For More Details
+----------------
+If you're new to developing with Spring or want to learn more about Spring and
+Spring Boot, check out my book "Spring in Action, 6th Edition", available at
+[Amazon](http://www.amazon.com/gp/product/1617297577/?tag=habumacom-20) or 
+from [Manning.com](https://www.manning.com/books/spring-in-action-sixth-edition?a_aid=habuma&a_bid=f205d999&chan=habuma).

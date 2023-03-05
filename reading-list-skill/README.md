@@ -205,6 +205,13 @@ The first two books are the books that were added as test
 data in the books API. The third book is the one that was
 added by interacting with the Alexa skill.
 
+Real World Deployment
+---------------------
+If this were to be deployed in the real world, only a few
+things would differ:
+
+ - The authorization server and books API would not be running
+
 For More Details
 ----------------
 The Alexa skill also employs Alexa entity resolution to
