@@ -210,7 +210,22 @@ Real World Deployment
 If this were to be deployed in the real world, only a few
 things would differ:
 
- - The authorization server and books API would not be running
+ - The authorization server and books API would not be
+   running locally. They would likely be deployed in the
+   cloud somewhere.
+   - Although not required, the authorization server
+     would likely be enhanced to support users and clients
+     that aren't hardcoded in the security configuration.
+ - The URLs in the account linking JSON file would refer
+   to the URLs for the authorization server, wherever it
+   may be deployed.
+ - The URLs in the skill's  `ListBooksIntentHandler.js` and
+   `AddBookIntentHandler.js` would refer to the correct
+   host of the books API as deployed in the cloud instead
+   of "localhost:8081".
+ - The Alexa skill would at least be deployed with the
+   previous change (for your own use) or published (for
+   access by the greater Alexa user community).
 
 For More Details
 ----------------
