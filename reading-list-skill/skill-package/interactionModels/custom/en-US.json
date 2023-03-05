@@ -1,0 +1,68 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "reading list",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "ListBooksIntent",
+          "slots": [],
+          "samples": [
+            "what books are on my list",
+            "what books are on my reading list",
+            "list books",
+            "list my books",
+            "list my reading list",
+            "list all books"
+          ]
+        },
+        {
+          "name": "AddBookIntent",
+          "slots": [
+            {
+              "name": "book",
+              "type": "AMAZON.Book"
+            }
+          ],
+          "samples": [
+            "add {book}",
+            "add {book} to my list",
+            "add {book} to my reading list",
+            "add {book} to my books",
+            "add {book} to my book list"
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}

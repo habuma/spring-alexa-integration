@@ -1,0 +1,15 @@
+{
+    "accountLinkingRequest": {
+      "skipOnEnablement": false,
+      "type": "AUTH_CODE",
+      "authorizationUrl": "https://{{paste ngrok URL here}}/oauth2/authorize",
+      "domains": [],
+      "clientId": "myclient",
+      "scopes": [
+        "books.write"
+      ],
+      "accessTokenUrl": "https://{{paste ngrok URL here}}/oauth2/token",
+      "clientSecret": "secret",
+      "accessTokenScheme": "HTTP_BASIC"
+    }
+}

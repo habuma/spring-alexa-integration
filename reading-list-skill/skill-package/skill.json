@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:548637245237:function:8596211a-2217-448b-b5fa-2d8b59279a32:Release_0"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:548637245237:function:8596211a-2217-448b-b5fa-2d8b59279a32:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:548637245237:function:8596211a-2217-448b-b5fa-2d8b59279a32:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:548637245237:function:8596211a-2217-448b-b5fa-2d8b59279a32:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "reading-list"
+        }
+      }
+    }
+  }
+}
