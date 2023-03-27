@@ -27,7 +27,7 @@ application using your web browser and `curl`. Here are the steps:
 % ./mvnw spring-boot:run
 ~~~
 
-- Point your web browser at http://localhost:9000/oauth2/authorize?response_type=code&client_id=myclient&redirect_uri=http://127.0.0.1:8080/authorized&scope=books.write&state=1234zyx (This is to simulate the redirect to
+- Point your web browser at [http://localhost:9000/oauth2/authorize?response_type=code&client_id=myclient&redirect_uri=http://127.0.0.1:8080/authorized&scope=books.write&state=1234zyx](http://localhost:9000/oauth2/authorize?response_type=code&client_id=myclient&redirect_uri=http://127.0.0.1:8080/authorized&scope=books.write&state=1234zyx) (This is to simulate the redirect to
 the authorization server that the client would do.)
 
 - Login as habuma / password

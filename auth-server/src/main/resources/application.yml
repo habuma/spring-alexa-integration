@@ -1,0 +1,24 @@
+server:
+  port: 9000
+spring:
+  security:
+    oauth2:
+      authorizationserver:
+        client:
+          books-client:
+            registration:
+              client-id: "myclient"
+              client-secret: "{noop}secret"
+              client-authentication-methods:
+                - "client_secret_basic"
+              authorization-grant-types:
+                - "authorization_code"
+                - "refresh_token"
+              redirect-uris:
+                - "https://pitangui.amazon.com/api/skill/link/M1FYKCCJ8MU4MO"
+                - "https://layla.amazon.com/api/skill/link/M1FYKCCJ8MU4MO"
+                - "https://alexa.amazon.co.jp/api/skill/link/M1FYKCCJ8MU4MO"
+                - "http://127.0.0.1:8080/authorized"
+              scopes:
+                - "books.write"
+            require-authorization-consent: true
