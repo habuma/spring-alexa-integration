@@ -11,12 +11,13 @@ import static org.springframework.security.config.Customizer.withDefaults;
 public class SecurityConfig {
 
   @Bean
-  SecurityWebFilterChain filterChain(ServerHttpSecurity http) throws Exception {
+  SecurityWebFilterChain filterChain(ServerHttpSecurity http) throws Exception {    
       http.authorizeExchange(exchanges -> exchanges
-          .pathMatchers(HttpMethod.POST, "/books").hasAuthority("SCOPE_books.write")
-          .anyExchange().permitAll())
-          .csrf().disable()
-          .oauth2ResourceServer(oauth2 -> oauth2.jwt(withDefaults()));
+              .pathMatchers(HttpMethod.POST, "/books")
+                      .hasAuthority("SCOPE_books.write")
+              .anyExchange().permitAll())
+              .csrf(c -> c.disable())
+              .oauth2ResourceServer(oauth2 -> oauth2.jwt(withDefaults()));
       return http.build();
   }
   
